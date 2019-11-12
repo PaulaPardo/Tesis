@@ -82,7 +82,7 @@
 
 /process/msc/StepLimit Minimal
 
-######### GUARDAR IMAGENES EN NUMERO DE PIXELES ###############
+######### GUARDAR IMAGENES EN NUMERO DE FOTONES ###############
 
 # Se divide la placa de material semiconductor, llamado "Detector" en la geometria, en una matriz de voxeles de 256 posiciones en x, 256 posiciones en y y 1 posicion en z
 /gamos/setParam SD:VirtSegmBox:NDiv:Detector 256 256 1
