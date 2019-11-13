@@ -84,13 +84,13 @@
 
 ######### GUARDAR IMAGENES EN NUMERO DE FOTONES ###############
 
-# Se divide la placa de material semiconductor, llamado "Detector" en la geometria, en una matriz de voxeles de 256 posiciones en x, 256 posiciones en y y 1 posicion en z
+# Se crea un detector, llamado "Detector", en una matriz de voxeles de 256 posiciones en x, 256 posiciones en y y 1 posicion en z
 /gamos/setParam SD:VirtSegmBox:NDiv:Detector 256 256 1
 
 # Se define el tamano de cada voxel en mm
 /gamos/setParam SD:VirtSegmBox:Width:Detector 0.0546875 0.0546875 1.0
 
-# Se asocia el detector de fotones individuales, llamado "Detector", a la placa de material semiconductor
+# Se asocia el detector, llamado "Detector", a la placa de material semiconductor llamada "detector" en la geometria
 /gamos/SD/assocSD2LogVol GmSDVirtSegmBox Detector detector
 
 # Se guardan los datos de cada interaccion entre un foton y la placa de material semiconductor
