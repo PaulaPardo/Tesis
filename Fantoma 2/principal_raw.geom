@@ -49,7 +49,7 @@
 :PLACE source 1 world R00 0. 0. 0.
 
 :VOLU tubo1 TUBE 0.000*cm 2.050*cm 2.550*cm NIST_PMMA
-:PLACE tubo1 1 world R00 0.000*cm 0.000*cm 61.000*cm
+:PLACE tubo1 1 world R00 0.000*cm 0.000*cm 63.000*cm
 :COLOUR tubo1 0.97 0.77 0.55
 
 :VOLU tubo2 TUBE 0.000*cm 1.550*cm 2.050*cm G4_PARAFFIN
